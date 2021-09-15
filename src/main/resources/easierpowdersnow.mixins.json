@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gmail.sneakdevs.easierpowdersnow.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CauldronBlockMixin",
+    "LeveledCauldronBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
