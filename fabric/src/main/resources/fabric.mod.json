@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "easierpowderedsnow",
+  "version": "${version}",
+
+  "name": "Easier Powdered Snow",
+  "description": "A farmable way to get powdered snow",
+  "authors": [
+    "IAmSneak"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gmail.sneakdevs.easierpowderedsnowfabric.EasierPowderedSnowFabric"
+    ]
+  },
+  "mixins": [
+    "easierpowderedsnow.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

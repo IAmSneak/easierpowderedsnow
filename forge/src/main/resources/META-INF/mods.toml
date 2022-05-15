@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "easierpowderedsnow"
+version = "${version}"
+displayName = "Easier Powdered Snow"
+authors = "IAmSneak"
+description = '''
+A farmable way to get powdered snow
+'''
+logoFile = "icon.png"
+
+[[dependencies.easierpowderedsnow]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.easierpowderedsnow]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.1,)"
+ordering = "NONE"
+side = "BOTH"
